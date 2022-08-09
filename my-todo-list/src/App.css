@@ -1,6 +1,60 @@
+.App {
+  background-color: lightseagreen;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 1000px;
+  padding: 0.5rem;
+}
+
 #title {
   text-align: left;
   margin-left: 1rem;
-  color: lightblue;
+  color: lightcyan;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: x-large;
+  font-weight:bold
+
 }
 
+#todo-instruction {
+  text-align: left;
+  margin-left: 1rem;
+  color: lightcyan;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+  font-style: italic;
+}
+
+.todo-list { 
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+  font-style: italic;
+  text-align: right;
+  margin-right: 1rem;
+}
+
+.add-button {
+  color: black;
+  background-color: bisque;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.listOfTodos { 
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+  font-style: italic;
+  text-align: right;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+#list-title {
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+  text-align: right;
+  margin-right: 1rem;
+}
