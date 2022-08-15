@@ -39,12 +39,11 @@ const TodoListFunctions = () => {
     // using child component in the return AddItem which takes a job and 2 events 
     return (
         <div>
-            <AddItem>
+            <AddItem
                 job={job}
                 onChange={handleChange}
-                onAdd={handleAdd}
-            </AddItem>
-
+                onAdd={handleAdd}/>
+           
             <List list={list}/>
         </div>
     )
