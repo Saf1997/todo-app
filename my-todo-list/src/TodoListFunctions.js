@@ -36,14 +36,18 @@ const TodoListFunctions = () => {
         setJob(''); //new list (takes empty string because it's for the user to fill out)
     }
 
+    function handleDelete() { 
+        const newList = list.concat({ job: job, id:uuidv4() });
+    }
+
     // using child component in the return AddItem which takes a job and 2 events 
     return (
         <div>
-            <AddItem>
+            <AddItem
                 job={job}
                 onChange={handleChange}
-                onAdd={handleAdd}
-            </AddItem>
+                onAdd={handleAdd}/>
+            
 
             <List list={list}/>
         </div>
