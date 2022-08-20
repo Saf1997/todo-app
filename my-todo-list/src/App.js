@@ -14,7 +14,7 @@ function App() {
         <div className="main-app">
         <section className="todo-function">
           <p id="todo-instruction"> Add, edit and delete todo items  </p>
-         <TodoListFunctions> hello </TodoListFunctions>
+         <TodoListFunctions> </TodoListFunctions>
         </section> 
         </div>
       </div>
